@@ -11,8 +11,8 @@ from __future__ import absolute_import
 from __future__ import unicode_literals, division, generators
 from __future__ import print_function, nested_scopes, with_statement
 
-
 from .dmiinfo import DMIIDInfo, DMIInfo
 
+__version__ = "0.1.0"
 
 __all__ = [ 'DMIIDInfo', 'DMIInfo', ]
